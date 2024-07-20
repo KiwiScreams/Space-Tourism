@@ -1,0 +1,30 @@
+.Tech-header .flex
+{
+    flex-direction: column;
+    width: fit-content;
+    padding: 0;
+}
+.Tech-header nav
+{
+    backdrop-filter: none;
+    background-color: transparent;
+}
+.Tech-header nav ul
+{
+    gap: 0px;
+}
+.Tech-header .crew-
+{
+    color: black;
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+    border: 1px solid var(--white-clr);
+    background-color: transparent;
+    color: var(--white-clr);
+}
+.crew-.active-num
+{
+    background-color: var(--white-clr);
+    color: black;
+}

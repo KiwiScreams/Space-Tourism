@@ -1,0 +1,60 @@
+.h3-destination
+{
+    color: var(--white-clr);
+    margin-left: 166px;
+    margin-top: 56px;
+    margin-bottom: 50px;
+}
+.h3-destination span
+{
+    color: var(--grey-clr);
+    margin-right: 28px;
+}
+.text-container
+{
+    width: 40%;
+}
+.hr
+{
+    width: 100%;
+    margin-top: 54px;
+    background-color: #383b4b;
+    height: 1px;
+}
+.grey
+{
+    color: var(--grey-clr);
+    margin-bottom: 12px;
+    margin-top: 28px;
+}
+.white
+{
+    color: var(--white-clr);
+}
+.destination {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+.destination img
+{
+    width: 100%;
+}
+.planet {
+    animation: rotate 10s linear infinite;
+    border-radius: 50%;
+  }
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

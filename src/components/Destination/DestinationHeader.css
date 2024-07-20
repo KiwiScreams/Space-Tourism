@@ -1,0 +1,43 @@
+header.destination-header
+{
+    width: 100%;
+    float: right;
+    background: transparent;
+    margin-right: 322px;
+    padding: 0;
+}
+header.destination-header nav
+{
+    background: transparent;
+    backdrop-filter: blur(0);
+    float: right;
+}
+header.destination-header
+ nav ul
+{
+    gap: 52px;
+    padding: 0;
+}
+header.destination-header
+ nav ul li
+{
+    border-bottom: 5px solid transparent;
+}
+header.destination-header
+ nav ul li .link
+{
+    color: var(--white-clr);
+    padding: 12px 0;
+}
+header.destination-header
+ nav ul li span
+{
+    margin-right: 10px;
+    font-weight: var(--font-weight-700);
+    color: var(--white-clr);
+}
+header.destination-header
+ .active-a
+{
+    border-bottom: 3px solid var(--white-clr);
+}

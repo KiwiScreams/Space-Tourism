@@ -1,0 +1,30 @@
+.crew-header {
+    background-color: transparent;
+    backdrop-filter: blur(0);
+    position: absolute;
+    bottom: 10px;
+    left: -40px;
+}
+
+.crew-.active {
+    background-color: white;
+}
+
+.crew- {
+    width: 30px;
+    height: 30px;
+    color: transparent;
+    background-color: grey;
+    border-radius: 50%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.crew-header nav
+{
+    backdrop-filter: none;
+    background-color: transparent;
+    width: fit-content;
+}
